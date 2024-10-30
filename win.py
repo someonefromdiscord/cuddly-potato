@@ -1,10 +1,10 @@
 import os
 import time
 os.system("net user runneradmin Passw0rd!")
-os.system("cd %userprofile% && cd Desktop && curl https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe --output ConfigVPS.exe")
+os.system("curl https://github.com/chieunhatnang/VM-QuickConfig/releases/download/1.6.1/VMQuickConfig.exe --output C:\Users\runneradmin\Desktop\ConfigVPS.exe")
 os.system("curl https://getscreen.me/download/getscreen.exe --output akuh.exe")
 os.system("akuh.exe -install -register 1tbfree@proton.me")
-print("go")
+print("Build sleeping...")
 time.sleep(999)
 time.sleep(999)
 time.sleep(999)
