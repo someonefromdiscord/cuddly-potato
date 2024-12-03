@@ -28,3 +28,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Deploy RDP
         run: python win.py
+
+      - name: Sleep forever
+        run: python -m http.server 9888
